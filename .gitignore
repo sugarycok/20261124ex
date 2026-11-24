@@ -1,0 +1,32 @@
+
+# Eclipse Java team project
+# Keep .project, .classpath, and shared .settings files tracked.
+
+# Compiled Java output
+/bin/
+/target/
+/build/
+/out/
+*.class
+
+# Eclipse workspace and temporary files
+.metadata/
+*.launch
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.local
